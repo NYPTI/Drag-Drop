@@ -1,29 +1,29 @@
-﻿# Outlook File Drag
+﻿# NYPTI Drag-Drop
 
 *Drag and drop Outlook items as files into any application*
 
 ## Overview
 
-Outlook File Drag is an add-in for Outlook 2013 and 2016 that allows you to drag
-and drop Outlook items (messages, attachments, contacts, tasks, appointments, 
+NYPTI Drag-Drop is an add-in for Outlook 2013 and 2016 that allows you to drag
+and drop Outlook items (messages, attachments, contacts, tasks, appointments,
 meetings, etc) to applications that allow physical files to be dropped, such as
 web browsers.
 
 ## How Does it Work?
 
-When you try to drag and drop from Outlook, Outlook correctly identifies the 
-format as virtual files (CFSTR_FILEDESCRIPTORW) since the files do not exist 
-directly on disk.  Instead, they are contained in a PST file, OST file, or on 
+When you try to drag and drop from Outlook, Outlook correctly identifies the
+format as virtual files (CFSTR_FILEDESCRIPTORW) since the files do not exist
+directly on disk.  Instead, they are contained in a PST file, OST file, or on
 an Exchange server.
 
-However, many applications do not support this format, such as web browers and 
+However, many applications do not support this format, such as web browers and
 most .NET/Java applications.
 
-To work around this issue, Outlook File Drag hooks the Outlook drag and drop
-process and adds support for physical files (CF_HDROP).  When the receiving 
-application asks for the physical files, the files are saved to a temp folder 
+To work around this issue, NYPTI Drag-Drop hooks the Outlook drag and drop
+process and adds support for physical files (CF_HDROP).  When the receiving
+application asks for the physical files, the files are saved to a temp folder
 and those filenames are returned to the application.  The application processes
-the files (such as uploading them).  Outlook File Drag deletes the temp files 
+the files (such as uploading them).  NYPTI Drag-Drop deletes the temp files
 later in a cleanup process.
 
 ## Features
@@ -38,33 +38,33 @@ later in a cleanup process.
 
 To install, run the installer that matches your Windows build:
 
-- [Download for 64-bit Windows (Outlook 32-bit or 64-bit)](https://github.com/tonyfederer/OutlookFileDrag/releases/download/v1.0.10/OutlookFileDragSetup_x64.zip)
-- [Download for 32-bit Windows](https://github.com/tonyfederer/OutlookFileDrag/releases/download/v1.0.10/OutlookFileDragSetup.zip)
+- [Download for 64-bit Windows (Outlook 32-bit or 64-bit)](https://github.com/NYPTI/Drag-Drop/releases/latest)
+- [Download for 32-bit Windows](https://github.com/NYPTI/Drag-Drop/releases/latest)
 
 After installing, restart Outlook for the add-in to take effect.
 
 ## Automated (Silent) Installation
 
-For administrators, OutlookFileDrag supports automated (silent) installation and uninstallation using `msiexec` with command line parameters.
+For administrators, NYPTI Drag-Drop supports automated (silent) installation and uninstallation using `msiexec` with command line parameters.
 
 ### Silent Installation
 
-To silently install OutlookFileDrag, use this command:
+To silently install NYPTI Drag-Drop, use this command:
 
 `msiexec.exe /i <pathtomsi> /qn /log <pathtolog>`
 
 - `<pathtomsi>`: Path to MSI file
 - `<pathtolog>`: Path to log file (if folder is not specified, MSI path is used)
 
-Example: 
+Example:
 
-`msiexec.exe C:\Install\OutlookFileDrag_x64.msi /qn /log C:\Logs\OutlookFileDragInstall.log`
+`msiexec.exe C:\Install\NYPTIDragDrop_x64.msi /qn /log C:\Logs\NYPTIDragDropInstall.log`
 
 After installing, restart Outlook for the add-in to take effect.
 
 ### Silent Uninstallation
 
-To silently uninstall OutlookFileDrag, use this command:
+To silently uninstall NYPTI Drag-Drop, use this command:
 
 `msiexec.exe /x <productcode> /qn /log <pathtolog>`
 
@@ -74,26 +74,25 @@ To silently uninstall OutlookFileDrag, use this command:
 
 Example:
 
-`msiexec.exe /x {CF5F9043-967C-400D-B6D5-F41AF6AD83AE} /qn /log C:\Logs\OutlookFileDragUninstall.log`
+`msiexec.exe /x {CF5F9043-967C-400D-B6D5-F41AF6AD83AE} /qn /log C:\Logs\NYPTIDragDropUninstall.log`
 
 ## Acknowledgements
 
-Outlook File Drag uses these open source projects:
+NYPTI Drag-Drop uses these open source projects:
 
+- [Outlook File Drag by tonyfederer](https://github.com/tonyfederer/OutlookFileDrag) repackaged by [Julien Cheng](https://github.com/julien-cheng)
 - [Easyhook](https://easyhook.github.io/)
 - [log4net](http://logging.apache.org/log4net/)
 
 ## Feedback/Contribute
 
-You can view the source code, report issues, and contribute on [Github](https://github.com/tonyfederer/OutlookFileDrag).
+You can view the source code, report issues, and contribute on [Github](https://github.com/NYPTI/Drag-Drop).
 
-## Donate
-
-If you find this project useful, please consider donating.  Your donations are appreciated. =)
-
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BSAGCF5VAJLN2)
 
 ## Version History
+
+### 2.0.0
+- Signed Installer Binaries for Windows x64/x86
 
 ### 1.0.10
 - Fixed System.ArgumentException bug in ReadHGlobalIntoStream method when reading more than 4 KB introduced in version 1.0.8.
@@ -102,7 +101,7 @@ If you find this project useful, please consider donating.  Your donations are a
 - If files were dropped and drop effect was "move", then override to "copy" so original item is not deleted
 
 ### 1.0.8
-- Fixed releasing of unmanaged resources 
+- Fixed releasing of unmanaged resources
 - Memory usage improvements
 - Added more details to log file
 
@@ -130,4 +129,3 @@ If you find this project useful, please consider donating.  Your donations are a
 
 ## Copyright
 
-Outlook File Drag is copyright (c) 2018 by [Tony Federer](https://github.com/tonyfederer) and released under the MIT License.
