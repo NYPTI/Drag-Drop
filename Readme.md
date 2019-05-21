@@ -36,10 +36,9 @@ later in a cleanup process.
 
 ## Installation
 
-To install, run the installer that matches your Windows build:
+To install, run the installer that matches your Windows build by donwloading the installer from [the latest github release page](https://github.com/NYPTI/Drag-Drop/releases/latest) ~~or from the Microsoft Store.~~ (not yet)
 
-- [Download for 64-bit Windows (Outlook 32-bit or 64-bit)](https://github.com/NYPTI/Drag-Drop/releases/latest)
-- [Download for 32-bit Windows](https://github.com/NYPTI/Drag-Drop/releases/latest)
+- The installer for 64-bit Windows works with Outlook 32-bit or 64-bit
 
 After installing, restart Outlook for the add-in to take effect.
 
