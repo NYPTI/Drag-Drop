@@ -51,6 +51,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_71EAAA87D4FB45B8A96D7CF83F5377E5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_72075AC31CF94E2B1433CDB0E962A5C1"
         "OwnerKey" = "8:_54EF5F74A56C4AEE96D4330B540B4A3A"
         "MsmSig" = "8:_UNDEFINED"
@@ -65,12 +71,6 @@
         {
         "MsmKey" = "8:_97BE1985F10A769294A2821EF59F4ADC"
         "OwnerKey" = "8:_54EF5F74A56C4AEE96D4330B540B4A3A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9C425D8669E94145ABA1A4E27BC9815F"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -111,6 +111,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_D77F3333EBC34359B6DC28169AC7119B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_DE9F5A54C8B85CFD6A3D99D187929E92"
         "OwnerKey" = "8:_54EF5F74A56C4AEE96D4330B540B4A3A"
         "MsmSig" = "8:_UNDEFINED"
@@ -119,12 +125,6 @@
         {
         "MsmKey" = "8:_E7ED4927F57D3235E6F4E3F333E11D18"
         "OwnerKey" = "8:_54EF5F74A56C4AEE96D4330B540B4A3A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EE9B16C43E654E2282A0D854D628C1B0"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -388,6 +388,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_71EAAA87D4FB45B8A96D7CF83F5377E5"
+            {
+            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\bin\\Release\\NYPTIOutlookDragDrop.vsto"
+            "TargetName" = "8:NYPTIOutlookDragDrop.vsto"
+            "Tag" = "8:"
+            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_72075AC31CF94E2B1433CDB0E962A5C1"
             {
             "AssemblyRegister" = "3:1"
@@ -468,26 +488,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9C425D8669E94145ABA1A4E27BC9815F"
-            {
-            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\bin\\Release\\NYPTI Outlook Drag Drop.vsto"
-            "TargetName" = "8:NYPTI Outlook Drag Drop.vsto"
-            "Tag" = "8:"
-            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9D6D7053895EBA4EACE6A2518282F4DE"
@@ -614,6 +614,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D77F3333EBC34359B6DC28169AC7119B"
+            {
+            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\bin\\Release\\NYPTIOutlookDragDrop.dll.manifest"
+            "TargetName" = "8:NYPTIOutlookDragDrop.dll.manifest"
+            "Tag" = "8:"
+            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DE9F5A54C8B85CFD6A3D99D187929E92"
             {
             "AssemblyRegister" = "3:1"
@@ -674,26 +694,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EE9B16C43E654E2282A0D854D628C1B0"
-            {
-            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\bin\\Release\\NYPTI Outlook Drag Drop.dll.manifest"
-            "TargetName" = "8:NYPTI Outlook Drag Drop.dll.manifest"
-            "Tag" = "8:"
-            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F29B1F4D9E56413F07BDC86EFB6D48AD"
@@ -1589,7 +1589,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_54EF5F74A56C4AEE96D4330B540B4A3A"
             {
-            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\obj\\Release\\NYPTI Outlook Drag Drop.dll"
+            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\obj\\Release\\NYPTIOutlookDragDrop.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
