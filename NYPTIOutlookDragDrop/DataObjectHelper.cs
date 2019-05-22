@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using log4net;
 
-namespace NYPTIDragDrop
+namespace NYPTIOutlookDragDrop
 {
     static class DataObjectHelper
     {
@@ -54,7 +54,7 @@ namespace NYPTIDragDrop
             //Copy filenames to memory after DROPFILES structure
             IntPtr ptrFiles = IntPtr.Add(ptrDropFiles, Marshal.SizeOf(dropFiles));
             Marshal.Copy(filenameBytes, 0, ptrFiles, filenameBytes.Length);
-            
+
             //Load structure into medium
             medium.unionmember = ptrDropFiles;
             medium.tymed = TYMED.TYMED_HGLOBAL;
@@ -196,7 +196,7 @@ namespace NYPTIDragDrop
                     stream.Seek(0, SeekOrigin.Begin);
                     stream.Read(bytes, 0, bytes.Length);
                 }
-                
+
                 //Copy byte array into unmanaged memory
                 log.Debug("Copying structure into unmanaged memory");
                 ptrFgd = Marshal.AllocHGlobal(bytes.Length);
@@ -243,7 +243,7 @@ namespace NYPTIDragDrop
 
         internal static void ReadFileContents(NativeMethods.IDataObject data, int index, Stream stream)
         {
-            STGMEDIUM medium = new STGMEDIUM();            
+            STGMEDIUM medium = new STGMEDIUM();
             try
             {
                 //Define FileContents format
@@ -290,7 +290,7 @@ namespace NYPTIDragDrop
 
         private static void ReadIStorageIntoStream(IntPtr handle, Stream stream)
         {
-            //To handle a IStorage it needs to be written into a second unmanaged memory mapped storage 
+            //To handle a IStorage it needs to be written into a second unmanaged memory mapped storage
             //and then the data can be read from memory into a managed byte and returned as a MemoryStream
 
             NativeMethods.ILockBytes iLockBytes = null;
@@ -388,7 +388,7 @@ namespace NYPTIDragDrop
                 //Copy HGlobal into managed stream in chunks
                 byte[] buffer = new byte[4096];     //4 KB buffer
                 int bytesToCopy;
-                for(int offset = 0; offset < length; offset += buffer.Length)
+                for (int offset = 0; offset < length; offset += buffer.Length)
                 {
                     //Copy buffer length or remaining length, whichever is smaller
                     bytesToCopy = Math.Min(buffer.Length, length - offset);

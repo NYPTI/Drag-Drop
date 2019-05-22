@@ -1,8 +1,8 @@
 ﻿using System.Runtime.InteropServices.ComTypes;
 
-namespace NYPTIDragDrop
+namespace NYPTIOutlookDragDrop
 {
-    class FormatEtcEnumerator : IEnumFORMATETC 
+    class FormatEtcEnumerator : IEnumFORMATETC
     {
         private FORMATETC[] formats;
         private int index = 0;

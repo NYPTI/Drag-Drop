@@ -25,8 +25,8 @@
     <ProjectGuid>{88E6522A-C68B-42C8-8B5E-9C959BA6C415}</ProjectGuid>
     <OutputType>Library</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
-    <RootNamespace>NYPTIDragDrop</RootNamespace>
-    <AssemblyName>NYPTI Drag-Drop</AssemblyName>
+    <RootNamespace>NYPTIOutlookDragDrop</RootNamespace>
+    <AssemblyName>NYPTI Outlook Drag Drop</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <DefineConstants>VSTO40</DefineConstants>
     <TargetFrameworkProfile />
@@ -40,10 +40,10 @@
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>days</UpdateIntervalUnits>
     <IsWebBootstrapper>False</IsWebBootstrapper>
-    <ProductName>NYPTIDragDrop</ProductName>
+    <ProductName>NYPTIOutlookDragDrop</ProductName>
     <PublisherName />
     <SupportUrl />
-    <FriendlyName>NYPTIDragDrop</FriendlyName>
+    <FriendlyName>NYPTIOutlookDragDrop</FriendlyName>
     <OfficeApplicationDescription />
     <LoadBehavior>3</LoadBehavior>
   </PropertyGroup>
@@ -205,8 +205,8 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="NYPTIDragDrop.pfx" />
-    <None Include="NYPTIDragDrop_TemporaryKey.pfx" />
+    <None Include="NYPTIOutlookDragDrop.pfx" />
+    <None Include="NYPTIOutlookDragDrop_TemporaryKey.pfx" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
@@ -237,7 +237,7 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>NYPTIDragDrop_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>NYPTIOutlookDragDrop_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>2C19165720FD31B95E77B32B2C543C0EA964CEF1</ManifestCertificateThumbprint>
@@ -254,7 +254,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
         <ProjectProperties HostName="Outlook" HostPackage="{29A7B9D7-A7F1-4328-8EF0-6B2D1A56B2C1}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="Outlook" Language="cs" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\16.0\Outlook\InstallRoot\Path#outlook.exe" AddItemTemplatesGuid="{A58A78EB-1C92-4DDD-80CF-E8BD872ABFC4}" />
-        <Host Name="Outlook" GeneratedCodeNamespace="NYPTIDragDrop" IconIndex="0">
+        <Host Name="Outlook" GeneratedCodeNamespace="NYPTIOutlookDragDrop" IconIndex="0">
           <HostItem Name="ThisAddIn" Code="ThisAddIn.cs" CanonicalName="AddIn" CanActivate="false" IconIndex="1" Blueprint="ThisAddIn.Designer.xml" GeneratedCode="ThisAddIn.Designer.cs" />
         </Host>
       </FlavorProperties>

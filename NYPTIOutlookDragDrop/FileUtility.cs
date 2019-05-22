@@ -2,7 +2,7 @@
 using System.IO;
 using log4net;
 
-namespace NYPTIDragDrop
+namespace NYPTIOutlookDragDrop
 {
     static class FileUtility
     {
@@ -11,7 +11,7 @@ namespace NYPTIDragDrop
         public static string GetTempPath()
         {
             log.Debug("Getting temp path");
-            string path = Path.Combine(Path.GetTempPath(), "NYPTIDragDrop", Guid.NewGuid().ToString());
+            string path = Path.Combine(Path.GetTempPath(), "NYPTIOutlookDragDrop", Guid.NewGuid().ToString());
             if (!System.IO.Directory.Exists(path))
                 System.IO.Directory.CreateDirectory(path);
             log.DebugFormat("Temp path: {0}", path);
@@ -21,7 +21,7 @@ namespace NYPTIDragDrop
         public static void CleanupTempPath(int tempFileExpiration)
         {
             log.Debug("Cleaning up temp path");
-            string path = Path.Combine(Path.GetTempPath(), "NYPTIDragDrop");
+            string path = Path.Combine(Path.GetTempPath(), "NYPTIOutlookDragDrop");
             log.InfoFormat("Temp path: {0}", path);
             if (!System.IO.Directory.Exists(path))
             {
@@ -57,7 +57,7 @@ namespace NYPTIDragDrop
                 ext = Path.GetExtension(filename);
                 filename = filename.Substring(0, NativeMethods.MAX_PATH - ext.Length - 1) + ext;
             }
-            
+
             //If file does not exist, use original filename
             if (!File.Exists(filename))
                 return filename;

@@ -2,7 +2,7 @@
 using System.Reflection;
 using log4net;
 
-namespace NYPTIDragDrop
+namespace NYPTIOutlookDragDrop
 {
     public partial class ThisAddIn
     {
@@ -16,7 +16,7 @@ namespace NYPTIDragDrop
             log4net.Config.XmlConfigurator.Configure();
 
             try
-            {                
+            {
                 log.Info("Add-in startup");
 
                 //Log version, OS version, Outlook version, and language
@@ -72,7 +72,7 @@ namespace NYPTIDragDrop
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
-            // Note: Outlook no longer raises this event. If you have code that 
+            // Note: Outlook no longer raises this event. If you have code that
             //    must run when Outlook shuts down, see http://go.microsoft.com/fwlink/?LinkId=506785
 
             try

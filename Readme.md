@@ -1,10 +1,10 @@
-﻿# NYPTI Drag-Drop
+﻿# NYPTI Outlook Drag Drop
 
 *Drag and drop Outlook items as files into any application*
 
 ## Overview
 
-NYPTI Drag-Drop is an add-in for Outlook 2013 and 2016 that allows you to drag
+NYPTI Outlook Drag Drop is an add-in for Outlook 2013 and 2016 that allows you to drag
 and drop Outlook items (messages, attachments, contacts, tasks, appointments,
 meetings, etc) to applications that allow physical files to be dropped, such as
 web browsers.
@@ -19,11 +19,11 @@ an Exchange server.
 However, many applications do not support this format, such as web browers and
 most .NET/Java applications.
 
-To work around this issue, NYPTI Drag-Drop hooks the Outlook drag and drop
+To work around this issue, NYPTI Outlook Drag Drop hooks the Outlook drag and drop
 process and adds support for physical files (CF_HDROP).  When the receiving
 application asks for the physical files, the files are saved to a temp folder
 and those filenames are returned to the application.  The application processes
-the files (such as uploading them).  NYPTI Drag-Drop deletes the temp files
+the files (such as uploading them).  NYPTI Outlook Drag Drop deletes the temp files
 later in a cleanup process.
 
 ## Features
@@ -44,11 +44,11 @@ After installing, restart Outlook for the add-in to take effect.
 
 ## Automated (Silent) Installation
 
-For administrators, NYPTI Drag-Drop supports automated (silent) installation and uninstallation using `msiexec` with command line parameters.
+For administrators, NYPTI Outlook Drag Drop supports automated (silent) installation and uninstallation using `msiexec` with command line parameters.
 
 ### Silent Installation
 
-To silently install NYPTI Drag-Drop, use this command:
+To silently install NYPTI Outlook Drag Drop, use this command:
 
 `msiexec.exe /i <pathtomsi> /qn /log <pathtolog>`
 
@@ -57,13 +57,13 @@ To silently install NYPTI Drag-Drop, use this command:
 
 Example:
 
-`msiexec.exe C:\Install\NYPTIDragDrop_x64.msi /qn /log C:\Logs\NYPTIDragDropInstall.log`
+`msiexec.exe C:\Install\NYPTIOutlookDragDrop_x64.msi /qn /log C:\Logs\NYPTIOutlookDragDropInstall.log`
 
 After installing, restart Outlook for the add-in to take effect.
 
 ### Silent Uninstallation
 
-To silently uninstall NYPTI Drag-Drop, use this command:
+To silently uninstall NYPTI Outlook Drag Drop, use this command:
 
 `msiexec.exe /x <productcode> /qn /log <pathtolog>`
 
@@ -73,11 +73,11 @@ To silently uninstall NYPTI Drag-Drop, use this command:
 
 Example:
 
-`msiexec.exe /x {B1E4DA5D-16B7-45E5-AFB6-3DCE3A24B083} /qn /log C:\Logs\NYPTIDragDropUninstall.log`
+`msiexec.exe /x {B1E4DA5D-16B7-45E5-AFB6-3DCE3A24B083} /qn /log C:\Logs\NYPTIOutlookDragDropUninstall.log`
 
 ## Acknowledgements
 
-NYPTI Drag-Drop is based on [Outlook File Drag by tonyfederer](https://github.com/tonyfederer/OutlookFileDrag) using his MIT license, and was repackaged by [Julien Cheng](https://github.com/julien-cheng). See [Outlook File Drag's](https://github.com/tonyfederer/OutlookFileDrag) license below:
+NYPTI Outlook Drag Drop is based on [Outlook File Drag by tonyfederer](https://github.com/tonyfederer/OutlookFileDrag) using his MIT license, and was repackaged by [Julien Cheng](https://github.com/julien-cheng). See [Outlook File Drag's](https://github.com/tonyfederer/OutlookFileDrag) license below:
 ```
 Copyright (c) 2018 Tony Federer
 
@@ -99,7 +99,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-NYPTI Drag-Drop also uses these open source projects:
+NYPTI Outlook Drag Drop also uses these open source projects:
 
 - [Easyhook](https://easyhook.github.io/)
 - [log4net](http://logging.apache.org/log4net/)

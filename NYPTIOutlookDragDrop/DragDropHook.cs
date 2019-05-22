@@ -2,7 +2,7 @@
 using EasyHook;
 using log4net;
 
-namespace NYPTIDragDrop
+namespace NYPTIOutlookDragDrop
 {
     class DragDropHook : IDisposable
     {

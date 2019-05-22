@@ -6,11 +6,11 @@ using System.Security;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NYPTI Drag-Drop")]
+[assembly: AssemblyTitle("NYPTI Outlook Drag Drop")]
 [assembly: AssemblyDescription("Drag and drop Outlook items and attachments as files into any application")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("New York Prosecutors Training Institute")]
-[assembly: AssemblyProduct("NYPTI Drag-Drop")]
+[assembly: AssemblyProduct("NYPTI Outlook Drag Drop")]
 [assembly: AssemblyCopyright("Copyright © 2020 New York Prosecutors Training Institute")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

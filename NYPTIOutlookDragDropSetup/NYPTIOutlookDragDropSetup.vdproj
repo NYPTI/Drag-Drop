@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:NYPTIDragDropSetup_x64"
+"ProjectName" = "8:NYPTIOutlookDragDropSetup"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -39,7 +39,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_05B4BDDB0B41425FB1D48DB685C0EAAB"
+        "MsmKey" = "8:_35A40A07CD8D4333BA987D466FE597A6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -57,26 +57,26 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_811077B889234B5E8D92FD9440B779AD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_97BE1985F10A769294A2821EF59F4ADC"
         "OwnerKey" = "8:_54EF5F74A56C4AEE96D4330B540B4A3A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_9C425D8669E94145ABA1A4E27BC9815F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_9D6D7053895EBA4EACE6A2518282F4DE"
         "OwnerKey" = "8:_54EF5F74A56C4AEE96D4330B540B4A3A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9F1635A8DEF84079B9675D027C0460A4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_ACC6999AC5BC4FADB93220E6B0626231"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -105,7 +105,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DB2A43345F9440DD84405C790D1EDDA2"
+        "MsmKey" = "8:_D48777A38BAB4B7EAAC4EB730508CCBC"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -123,7 +123,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_ED368A8F6CF3468EB01E50AC9FBEF45C"
+        "MsmKey" = "8:_EE9B16C43E654E2282A0D854D628C1B0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -141,12 +141,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_FDD7226F564A40639B9655DB42455355"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_54EF5F74A56C4AEE96D4330B540B4A3A"
         "MsmSig" = "8:_UNDEFINED"
@@ -154,7 +148,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_05B4BDDB0B41425FB1D48DB685C0EAAB"
+        "OwnerKey" = "8:_D48777A38BAB4B7EAAC4EB730508CCBC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -225,7 +219,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\NYPTIDragDropSetup_x64.msi"
+        "OutputFilename" = "8:Debug\\NYPTIOutlookDragDropSetup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -257,7 +251,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\NYPTIDragDropSetup_x64.msi"
+        "OutputFilename" = "8:Release\\NYPTIOutlookDragDropSetup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -374,21 +368,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_05B4BDDB0B41425FB1D48DB685C0EAAB"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_35A40A07CD8D4333BA987D466FE597A6"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:HelloWorld, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_05B4BDDB0B41425FB1D48DB685C0EAAB"
-                    {
-                    "Name" = "8:HelloWorld.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\BlankWindow\\HelloWorld\\bin\\Release\\HelloWorld.exe"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\bin\\Release\\EasyHook32.dll"
+            "TargetName" = "8:EasyHook32.dll"
             "Tag" = "8:"
             "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
             "Condition" = "8:"
@@ -436,6 +419,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_811077B889234B5E8D92FD9440B779AD"
+            {
+            "SourcePath" = "8:..\\License.rtf"
+            "TargetName" = "8:License.rtf"
+            "Tag" = "8:"
+            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_97BE1985F10A769294A2821EF59F4ADC"
             {
             "AssemblyRegister" = "3:1"
@@ -467,6 +470,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9C425D8669E94145ABA1A4E27BC9815F"
+            {
+            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\bin\\Release\\NYPTI Outlook Drag Drop.vsto"
+            "TargetName" = "8:NYPTI Outlook Drag Drop.vsto"
+            "Tag" = "8:"
+            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9D6D7053895EBA4EACE6A2518282F4DE"
             {
             "AssemblyRegister" = "3:1"
@@ -496,46 +519,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9F1635A8DEF84079B9675D027C0460A4"
-            {
-            "SourcePath" = "8:..\\License.rtf"
-            "TargetName" = "8:License.rtf"
-            "Tag" = "8:"
-            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ACC6999AC5BC4FADB93220E6B0626231"
-            {
-            "SourcePath" = "8:..\\NYPTIDragDrop\\bin\\Release\\NYPTI Drag-Drop.dll.manifest"
-            "TargetName" = "8:NYPTI Drag-Drop.dll.manifest"
-            "Tag" = "8:"
-            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C083FDFC343FDEA0272FFFBFF82D3870"
@@ -600,10 +583,21 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DB2A43345F9440DD84405C790D1EDDA2"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D48777A38BAB4B7EAAC4EB730508CCBC"
             {
-            "SourcePath" = "8:..\\NYPTIDragDrop\\EasyHook64.dll"
-            "TargetName" = "8:EasyHook64.dll"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:HelloWorld, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_D48777A38BAB4B7EAAC4EB730508CCBC"
+                    {
+                    "Name" = "8:HelloWorld.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\BlankWindow\\HelloWorld\\bin\\Release\\HelloWorld.exe"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
             "Condition" = "8:"
@@ -682,10 +676,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ED368A8F6CF3468EB01E50AC9FBEF45C"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EE9B16C43E654E2282A0D854D628C1B0"
             {
-            "SourcePath" = "8:..\\NYPTIDragDrop\\bin\\Release\\NYPTI Drag-Drop.vsto"
-            "TargetName" = "8:NYPTI Drag-Drop.vsto"
+            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\bin\\Release\\NYPTI Outlook Drag Drop.dll.manifest"
+            "TargetName" = "8:NYPTI Outlook Drag Drop.dll.manifest"
             "Tag" = "8:"
             "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
             "Condition" = "8:"
@@ -731,26 +725,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FDD7226F564A40639B9655DB42455355"
-            {
-            "SourcePath" = "8:..\\NYPTIDragDrop\\EasyHook32.dll"
-            "TargetName" = "8:EasyHook32.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -808,10 +782,10 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:NYPTI Drag-Drop"
-        "ProductCode" = "8:{5E00C640-C7C4-43AB-AD7F-68DA4A72B4A7}"
-        "PackageCode" = "8:{E2A6CF20-D5E1-42F5-9220-355434B41CB1}"
-        "UpgradeCode" = "8:{65870D9B-6652-4150-830B-C5199F26E62C}"
+        "ProductName" = "8:NYPTI Outlook Drag Drop"
+        "ProductCode" = "8:{B1E4DA5D-16B7-45E5-AFB6-3DCE3A24B083}"
+        "PackageCode" = "8:{C8E88E6B-E039-4BEA-A985-5553E6552F45}"
+        "UpgradeCode" = "8:{2F626147-8F83-4FC1-9190-32AA4F25D487}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
@@ -821,7 +795,7 @@
         "Manufacturer" = "8:New York Prosecutors Training Institute"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/NYPTI/Drag-Drop"
-        "Title" = "8:NYPTI Drag-Drop Setup"
+        "Title" = "8:NYPTI Outlook Drag Drop Setup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:New York Prosecutors Training Institute"
         "Keywords" = "8:"
@@ -898,7 +872,7 @@
                                                                 {
                                                                     "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_FA680E6DBA8248D891731BA238E0099C"
                                                                     {
-                                                                    "Name" = "8:NYPTIDragDrop"
+                                                                    "Name" = "8:NYPTIOutlookDragDrop"
                                                                     "Condition" = "8:"
                                                                     "AlwaysCreate" = "11:FALSE"
                                                                     "DeleteAtUninstall" = "11:TRUE"
@@ -914,7 +888,7 @@
                                                                             "Condition" = "8:"
                                                                             "Transitive" = "11:FALSE"
                                                                             "ValueTypes" = "3:1"
-                                                                            "Value" = "8:file:///[TARGETDIR]NYPTIDragDrop.vsto|vstolocal"
+                                                                            "Value" = "8:file:///[TARGETDIR]NYPTIOutlookDragDrop.vsto|vstolocal"
                                                                             }
                                                                             "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_602742F0760846239584275A35DA1AAB"
                                                                             {
@@ -922,7 +896,7 @@
                                                                             "Condition" = "8:"
                                                                             "Transitive" = "11:FALSE"
                                                                             "ValueTypes" = "3:1"
-                                                                            "Value" = "8:NYPTIDragDrop"
+                                                                            "Value" = "8:NYPTIOutlookDragDrop"
                                                                             }
                                                                             "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_BDE554EC0FD5452B880DFE5E62B1F33B"
                                                                             {
@@ -1005,7 +979,7 @@
                                                         {
                                                             "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_CF568FCCF5F949B9BB57B58832FCC5E8"
                                                             {
-                                                            "Name" = "8:NYPTIDragDrop"
+                                                            "Name" = "8:NYPTIOutlookDragDrop"
                                                             "Condition" = "8:"
                                                             "AlwaysCreate" = "11:FALSE"
                                                             "DeleteAtUninstall" = "11:TRUE"
@@ -1045,7 +1019,7 @@
                                                                     "Condition" = "8:"
                                                                     "Transitive" = "11:FALSE"
                                                                     "ValueTypes" = "3:1"
-                                                                    "Value" = "8:file:///[TARGETDIR]NYPTIDragDrop.vsto|vstolocal"
+                                                                    "Value" = "8:file:///[TARGETDIR]NYPTIOutlookDragDrop.vsto|vstolocal"
                                                                     }
                                                                 }
                                                             }
@@ -1130,7 +1104,7 @@
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_7C6F7BCCB3134D219B945FC671E2C571"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_26A83612205E4DBC81DBC76172D2C1F8"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:Welcome"
@@ -1158,8 +1132,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
+                            "Setting" = "3:2"
+                            "Value" = "8:"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -1213,7 +1187,7 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B4D5279C408E467694AF02D4E02D61D0"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C619EF5B3A384CA2B73D88272FDCF4E6"
                     {
                     "Sequence" = "3:110"
                     "DisplayName" = "8:License Agreement"
@@ -1242,7 +1216,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F1635A8DEF84079B9675D027C0460A4"
+                            "Value" = "8:_811077B889234B5E8D92FD9440B779AD"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "Sunken"
@@ -1385,7 +1359,29 @@
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_4EAA0552B1A64272BACC7C0319AA1B0D"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_6DAE5AFAE9644A67B0639F0C67E856E9"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B86FF87ADAFE4746BFC955ADC4623837"
                     {
                     "Sequence" = "3:110"
                     "DisplayName" = "8:License Agreement"
@@ -1414,7 +1410,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:_9F1635A8DEF84079B9675D027C0460A4"
+                            "Value" = "8:_811077B889234B5E8D92FD9440B779AD"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "Sunken"
@@ -1428,28 +1424,6 @@
                             "Setting" = "3:0"
                             "Value" = "3:4"
                             "DefaultValue" = "3:4"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_6DAE5AFAE9644A67B0639F0C67E856E9"
-                    {
-                    "Sequence" = "3:300"
-                    "DisplayName" = "8:Confirm Installation"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1615,7 +1589,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_54EF5F74A56C4AEE96D4330B540B4A3A"
             {
-            "SourcePath" = "8:..\\NYPTIDragDrop\\obj\\Release\\NYPTI Drag-Drop.dll"
+            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\obj\\Release\\NYPTI Outlook Drag Drop.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
@@ -1641,7 +1615,7 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_749FB0E6341A426B8E31DAFFC8EBE0F9"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_A2682E522C9745F7840F601359FBC055"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
@@ -1669,7 +1643,7 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_CBE5DEADEE0E4AE7A4A3D0832595387F"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_F45C1AA6C44446A4BFB09062C1E0C83B"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"

@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using log4net;
 
-namespace NYPTIDragDrop
+namespace NYPTIOutlookDragDrop
 {
     //Class that wraps Outlook data object and adds support for CF_HDROP format
-    class OutlookDataObject : NativeMethods.IDataObject, ICustomQueryInterface  
+    class OutlookDataObject : NativeMethods.IDataObject, ICustomQueryInterface
     {
         private NativeMethods.IDataObject innerData;
         private string[] tempFilenames;
@@ -102,7 +102,7 @@ namespace NYPTIDragDrop
                     formatOut.lindex = formatIn.lindex;
                     formatOut.ptd = IntPtr.Zero;
                     formatOut.tymed = formatIn.tymed;
-                    
+
                     return NativeMethods.DATA_S_SAMEFORMATETC;
                 }
                 else

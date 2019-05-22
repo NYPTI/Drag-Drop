@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 
-namespace NYPTIDragDrop
+namespace NYPTIOutlookDragDrop
 {
     static class NativeMethods
     {
@@ -199,7 +199,7 @@ namespace NYPTIDragDrop
             public bool fNC;
             public bool fWide;
         }
-    
+
         [UnmanagedFunctionPointer(CallingConvention.StdCall, SetLastError = true)]
         [return: MarshalAs(UnmanagedType.I4)]
         public delegate int DragDropDelegate(NativeMethods.IDataObject pDataObj, IntPtr pDropSource, uint dwOKEffects, out uint pdwEffect);
