@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HelloWorld"
         mc:Ignorable="d"
-        Title="NYPTI Drag Drop" Height="118.547" Width="441.075">
+        Title="NYPTI Outlook Drag Drop" Height="153.501" Width="441.075">
     <Grid>
-        <Label Content="This window allows us to create an installer for the Microsoft Store.&#x0a;It performs no actions. You may close this window." HorizontalAlignment="Left" Margin="25,19,0,0" VerticalAlignment="Top"/>
+        <Label Content="This window allows us to create an installer for the Microsoft Store.&#x0a;It performs no actions. You may close this window.&#x0a;&#x0a;If you have just installed NYPTI Drag-Drop, you may have to restart&#x0a;Outlook for changes to take effect." HorizontalAlignment="Left" Margin="24,13,0,0" VerticalAlignment="Top" Height="90"/>
 
     </Grid>
 </Window>
