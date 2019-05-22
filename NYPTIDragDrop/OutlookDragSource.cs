@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
 using log4net;
 
-namespace OutlookFileDrag
+namespace NYPTIDragDrop
 {
     class OutlookDragSource : NativeMethods.IDropSource, ICustomQueryInterface
     {

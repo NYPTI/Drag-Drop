@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookFileDrag", "OutlookFileDrag\OutlookFileDrag.csproj", "{88E6522A-C68B-42C8-8B5E-9C959BA6C415}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NYPTIDragDrop", "NYPTIDragDrop\NYPTIDragDrop.csproj", "{88E6522A-C68B-42C8-8B5E-9C959BA6C415}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OutlookFileDragSetup_x64", "OutlookFileDragSetup_x64\OutlookFileDragSetup_x64.vdproj", "{B42086D0-8877-4CF2-B3FE-C19210CD683D}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NYPTIDragDropSetup_x64", "NYPTIDragDropSetup_x64\NYPTIDragDropSetup_x64.vdproj", "{B42086D0-8877-4CF2-B3FE-C19210CD683D}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OutlookFileDragSetup", "OutlookFileDragSetup\OutlookFileDragSetup.vdproj", "{0EF72B7A-7619-4572-A1C1-B31938BC6954}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NYPTIDragDropSetup", "NYPTIDragDropSetup\NYPTIDragDropSetup.vdproj", "{0EF72B7A-7619-4572-A1C1-B31938BC6954}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{7A072433-B080-41DB-A449-19F4B547610B}"
 	ProjectSection(SolutionItems) = preProject
@@ -58,5 +58,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {808D0B78-5C5A-4F49-ACC9-6289B690DCC5}
 	EndGlobalSection
 EndGlobal

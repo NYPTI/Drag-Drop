@@ -67,19 +67,40 @@ To silently uninstall NYPTI Drag-Drop, use this command:
 
 `msiexec.exe /x <productcode> /qn /log <pathtolog>`
 
-- `<productcode>` for 64-bit version: `{CF5F9043-967C-400D-B6D5-F41AF6AD83AE}`
-- `<productcode>` for 32-bit version: `{7EA6E17B-8802-4E1F-9669-248670B31BFB}`
+- `<productcode>` for 64-bit version: `{5E00C640-C7C4-43AB-AD7F-68DA4A72B4A7}`
+- `<productcode>` for 32-bit version: `{B1E4DA5D-16B7-45E5-AFB6-3DCE3A24B083}`
 - `<logfile>`: Path to log file
 
 Example:
 
-`msiexec.exe /x {CF5F9043-967C-400D-B6D5-F41AF6AD83AE} /qn /log C:\Logs\NYPTIDragDropUninstall.log`
+`msiexec.exe /x {B1E4DA5D-16B7-45E5-AFB6-3DCE3A24B083} /qn /log C:\Logs\NYPTIDragDropUninstall.log`
 
 ## Acknowledgements
 
-NYPTI Drag-Drop uses these open source projects:
+NYPTI Drag-Drop is based on [Outlook File Drag by tonyfederer](https://github.com/tonyfederer/OutlookFileDrag) using his MIT license, and was repackaged by [Julien Cheng](https://github.com/julien-cheng). See [Outlook File Drag's](https://github.com/tonyfederer/OutlookFileDrag) license below:
+```
+Copyright (c) 2018 Tony Federer
 
-- [Outlook File Drag by tonyfederer](https://github.com/tonyfederer/OutlookFileDrag) repackaged by [Julien Cheng](https://github.com/julien-cheng)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+NYPTI Drag-Drop also uses these open source projects:
+
 - [Easyhook](https://easyhook.github.io/)
 - [log4net](http://logging.apache.org/log4net/)
 
