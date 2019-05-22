@@ -92,6 +92,7 @@ You can view the source code, report issues, and contribute on [Github](https://
 
 ### 2.0.0
 - Signed Installer Binaries for Windows x64/x86
+- Renamed Software
 
 ### 1.0.10
 - Fixed System.ArgumentException bug in ReadHGlobalIntoStream method when reading more than 4 KB introduced in version 1.0.8.
