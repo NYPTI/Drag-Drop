@@ -43,6 +43,7 @@ namespace NYPTIOutlookDragDrop
                     return;
 
                 log.Info("Starting hook");
+                //Console.WriteLine("Starting hook");
                 //Hook current (UI) thread
                 hook.ThreadACL.SetInclusiveACL(new Int32[] { 0 });
                 isHooked = true;
@@ -79,14 +80,16 @@ namespace NYPTIOutlookDragDrop
             try
             {
                 log.Info("Drag started");
-                if (!DataObjectHelper.GetDataPresent(pDataObj, "FileGroupDescriptorW"))
+                if (!DataObjectHelper.GetDataPresent(pDataObj, "FileGroupDescriptorW") && DataObjectHelper.GetFilenames(pDataObj) == null)//if no data present in pDataObj as FileGroupDescriptorW and filenames are null
                 {
                     log.Info("No virtual files found -- continuing original drag");
+                    //Console.WriteLine("No virtual files found -- continuing original drag");
                     return NativeMethods.DoDragDrop(pDataObj, pDropSource, dwOKEffects, out pdwEffect);
                 }
 
                 //Start new drag
                 log.Info("Virtual files found -- starting new drag adding CF_HDROP format");
+                //Console.WriteLine("Virtual files found -- starting new drag adding CF_HDROP format");
                 log.InfoFormat("Files: {0}", string.Join(",", DataObjectHelper.GetFilenames(pDataObj)));
 
                 OutlookDataObject newDataObj = new OutlookDataObject(pDataObj);

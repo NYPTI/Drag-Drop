@@ -109,8 +109,11 @@ You can view the source code, report issues, and contribute on [Github](https://
 ## Version History
 
 ### 2.0.0
-- Signed Installer Binaries for Windows x64/x86
+- Signed Installer Binaries for Windows x86
 - Renamed Software
+- Removed x64 installer solution
+- Added icons and banners to installer
+- Added capability to drag attachments from RTF email bodies
 
 ### 1.0.10
 - Fixed System.ArgumentException bug in ReadHGlobalIntoStream method when reading more than 4 KB introduced in version 1.0.8.
