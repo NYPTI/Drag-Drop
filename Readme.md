@@ -4,7 +4,7 @@
 
 ## Overview
 
-NYPTI Outlook Drag Drop is an add-in for Outlook 2013, 2016, and 365 that allows dragging and dropping Outlook items (messages, attachments, contacts, tasks, appointments, meetings, etc) to applications that allow physical (saved-on-computer) files to be dropped, such as web browsers. Dragging an Outlook item (e.g. attachment) to a browser will temporarily save the file on the computer and remove it once the file has been uploaded.
+NYPTI Outlook Drag Drop is an add-in for Outlook 2013, 2016, and 365 that allows dragging and dropping Outlook items (messages, attachments, contacts, tasks, appointments, meetings, etc) to applications and web browsers (i.e. Chrome, Edge, FireFox) that allow physical files (saved-on-computer) to be dropped into them. Dragging an Outlook item (e.g. attachment) to a browser will temporarily save the file on the computer and remove it once the file has been uploaded.
 
 ## How Does it Work?
 
