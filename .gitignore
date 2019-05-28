@@ -326,5 +326,8 @@ ASALocalRun/
 # Microsoft Store build folder
 Microsoft Store/
 ms/
+
+# misc
 logo.png
 logo.tif
+NYPTIOutlookDragDropSetup_x64/Release64/
