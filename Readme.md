@@ -36,6 +36,7 @@ later in a cleanup process.
 To install, run the installer that matches your Windows build by donwloading the installer from [the latest github release page](https://github.com/NYPTI/Drag-Drop/releases/latest) ~~or from the Microsoft Store.~~ (not yet)
 
 - The installer for 64-bit Windows works with Outlook 32-bit or 64-bit
+- The installer for 32-bit Windows works with Outlook 32-bit or 64-bit
 
 After installing, restart Outlook for the add-in to take effect.
 
@@ -54,7 +55,7 @@ To silently install NYPTI Outlook Drag Drop, use this command:
 
 Example:
 
-`msiexec.exe C:\Install\NYPTIOutlookDragDrop_x64.msi /qn /log C:\Logs\NYPTIOutlookDragDropInstall.log`
+`msiexec.exe C:\Install\NYPTIOutlookDragDropSetup.msi /qn /log C:\Logs\NYPTIOutlookDragDropInstall.log`
 
 After installing, restart Outlook for the add-in to take effect.
 
@@ -103,7 +104,7 @@ NYPTI Outlook Drag Drop also uses these open source projects:
 
 ## Feedback/Contribute
 
-You can view the source code, report issues, and contribute on [Github](https://github.com/NYPTI/Drag-Drop).
+You can view the source code, report issues, and contribute on [Github](https://github.com/NYPTI/Outlook-Drag-Drop).
 
 
 ## Version History
@@ -149,4 +150,4 @@ You can view the source code, report issues, and contribute on [Github](https://
 - Initial Release
 
 ## Copyright
-
+NYPTI Outlook Drag Drop is copyright (c) 2019 by [NYPTI](https://github.com/NYPTI) / [New York Prosecutors Training Institute](https://www.nypti.org/) and released under the MIT License.
