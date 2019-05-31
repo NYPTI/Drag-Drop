@@ -35,8 +35,8 @@ later in a cleanup process.
 
 To install, run the installer that matches your Windows build by donwloading the installer from [the latest github release page](https://github.com/NYPTI/Drag-Drop/releases/latest) ~~or from the Microsoft Store.~~ (not yet)
 
-- The installer for 64-bit Windows works with Outlook 32-bit or 64-bit
-- The installer for 32-bit Windows works with Outlook 32-bit or 64-bit
+- The installer for 64-bit Windows works with Outlook 64-bit
+- The installer for 32-bit Windows works with Outlook 32-bit
 
 After installing, restart Outlook for the add-in to take effect.
 
@@ -110,9 +110,8 @@ You can view the source code, report issues, and contribute on [Github](https://
 ## Version History
 
 ### 2.0.0
-- Signed Installer Binaries for Windows x86
+- Signed Installer Binaries for Windows x86 and Windows x64
 - Renamed Software
-- Removed x64 installer solution
 - Added icons and banners to installer
 - Added capability to drag attachments from RTF email bodies
 
