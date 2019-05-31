@@ -1,2 +1,3 @@
-signtool sign /tr http://timestamp.digicert.com /f "../Code Signing Certificate.pfx" .\NYPTIOutlookDragDropSetup\Release\NYPTIOutlookDragDropSetup.msi .\NYPTIOutlookDragDropSetup\Release\setup.exe
+"C:\Program Files (x86)\Windows Kits\10\bin\x64\signtool.exe" sign /tr http://timestamp.digicert.com /td sha256 /fd sha256 /sha1 "e6af3cea75cb403525ade50673b33e9685bb70d0" .\NYPTIOutlookDragDropSetup\Release\NYPTIOutlookDragDropSetup.msi .\NYPTIOutlookDragDropSetup\Release\setup.exe .\NYPTIOutlookDragDropSetup_x64\Release64\NYPTIOutlookDragDropSetup_x64.msi .\NYPTIOutlookDragDropSetup_x64\Release64\setup.exe
+"C:\Program Files (x86)\Windows Kits\10\bin\x64\signtool.exe" sign /tr http://timestamp.digicert.com /as /sha1 "e6af3cea75cb403525ade50673b33e9685bb70d0" .\NYPTIOutlookDragDropSetup\Release\setup.exe .\NYPTIOutlookDragDropSetup_x64\Release64\setup.exe
 PAUSE

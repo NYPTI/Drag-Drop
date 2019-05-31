@@ -4,5 +4,19 @@ NYPTI Outlook Drag Drop is an open source software based on tonyfederer's open s
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Note for Microsoft Store users:
 The Microsoft Store installer for this Outlook add-in does not make the proper registry edits for Outlook to automatically detect NYPTI Outlook Drag Drop. You must either add the "C:\Program Files\WindowsApps\... .vsto" into the COM add in window in Outlook or make manual registry edits to \HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook .

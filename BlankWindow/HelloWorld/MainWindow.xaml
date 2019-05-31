@@ -5,9 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HelloWorld"
         mc:Ignorable="d"
-        Title="NYPTI Outlook Drag Drop" Height="153.501" Width="441.075">
+        Title="NYPTI Outlook Drag Drop Installer" Height="380.665" Width="441.075" IsEnabled="True">
     <Grid>
-        <Label Content="This window allows us to create an installer for the Microsoft Store.&#x0a;It performs no actions. You may close this window.&#x0a;&#x0a;If you have just installed NYPTI Drag-Drop, you may have to restart&#x0a;Outlook for changes to take effect." HorizontalAlignment="Left" Margin="24,13,0,0" VerticalAlignment="Top" Height="90"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="158*"/>
+            <ColumnDefinition Width="275*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="This window helps the user install NYPTI Outlook Drag Drop.&#xD;&#xA;Please download the x86 or x64 version according to your &#xD;&#xA;Outlook version (x86 or x64).&#xA;&#xA;If you have just installed NYPTI Outlook Drag Drop, you may have&#xA;to restart Outlook for changes to take effect." Margin="9,10,10,183" Grid.ColumnSpan="2"/>
+        <Button x:Name="DownloadButton" Content="Download" HorizontalAlignment="Left" Margin="15,167,0,0" VerticalAlignment="Top" Width="75" Click="btnClick"/>
+        <Button x:Name="VerifyButton" Content="Verify" HorizontalAlignment="Left" Margin="117,167,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="OutputTextBox" Grid.ColumnSpan="2" Margin="10,205,10,10" TextWrapping="Wrap" Text="Press the Verify button to verify your installation after downloading and running the setup." IsReadOnly="True" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        <ProgressBar x:Name="VerifyProgress" Grid.Column="1" Height="20" Margin="46,167,25,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
