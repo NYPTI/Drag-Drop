@@ -45,7 +45,25 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_4DBBFF1CA373483694122BCEB5C5468B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_54EF5F74A56C4AEE96D4330B540B4A3A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_62FBC6D2559B42CABC25EC3EEF85108B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6988B363EBAA400EB9D4E275832D17AB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -75,7 +93,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_ACC6999AC5BC4FADB93220E6B0626231"
+        "MsmKey" = "8:_AADBE92A841547E8AD00FDD508265F72"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -119,12 +137,6 @@
         {
         "MsmKey" = "8:_E7ED4927F57D3235E6F4E3F333E11D18"
         "OwnerKey" = "8:_54EF5F74A56C4AEE96D4330B540B4A3A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_ED368A8F6CF3468EB01E50AC9FBEF45C"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -284,6 +296,38 @@
                 }
             }
         }
+        "Release64"
+        {
+        "DisplayName" = "8:Release64"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Release64\\NYPTIOutlookDragDropSetup_x64.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
+        }
     }
     "Deployable"
     {
@@ -389,6 +433,66 @@
                 }
             "SourcePath" = "8:..\\BlankWindow\\HelloWorld\\bin\\Release\\HelloWorld.exe"
             "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4DBBFF1CA373483694122BCEB5C5468B"
+            {
+            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\bin\\x64\\Release64\\NYPTIOutlookDragDrop.vsto"
+            "TargetName" = "8:NYPTIOutlookDragDrop.vsto"
+            "Tag" = "8:"
+            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62FBC6D2559B42CABC25EC3EEF85108B"
+            {
+            "SourcePath" = "8:..\\logo.ico"
+            "TargetName" = "8:logo.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6988B363EBAA400EB9D4E275832D17AB"
+            {
+            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\bin\\x64\\Release64\\NYPTIOutlookDragDrop.dll.manifest"
+            "TargetName" = "8:NYPTIOutlookDragDrop.dll.manifest"
             "Tag" = "8:"
             "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
             "Condition" = "8:"
@@ -518,10 +622,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ACC6999AC5BC4FADB93220E6B0626231"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AADBE92A841547E8AD00FDD508265F72"
             {
-            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\bin\\Release\\NYPTI Outlook Drag Drop.dll.manifest"
-            "TargetName" = "8:NYPTI Outlook Drag Drop.dll.manifest"
+            "SourcePath" = "8:..\\banner.bmp"
+            "TargetName" = "8:banner.bmp"
             "Tag" = "8:"
             "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
             "Condition" = "8:"
@@ -682,26 +786,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ED368A8F6CF3468EB01E50AC9FBEF45C"
-            {
-            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\bin\\Release\\NYPTI Outlook Drag Drop.vsto"
-            "TargetName" = "8:NYPTI Outlook Drag Drop.vsto"
-            "Tag" = "8:"
-            "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F29B1F4D9E56413F07BDC86EFB6D48AD"
             {
             "AssemblyRegister" = "3:1"
@@ -772,7 +856,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_919F44B827474C528E0E9FF4CAE2B9AE"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -808,30 +892,30 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:NYPTI Outlook Drag Drop"
+        "ProductName" = "8:NYPTI Outlook Drag Drop (x64)"
         "ProductCode" = "8:{5E00C640-C7C4-43AB-AD7F-68DA4A72B4A7}"
-        "PackageCode" = "8:{E2A6CF20-D5E1-42F5-9220-355434B41CB1}"
+        "PackageCode" = "8:{0F54BD72-D037-4ED1-ACFF-A91A3EB98DA8}"
         "UpgradeCode" = "8:{65870D9B-6652-4150-830B-C5199F26E62C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.10"
+        "ProductVersion" = "8:2.0.0"
         "Manufacturer" = "8:New York Prosecutors Training Institute"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:https://github.com/NYPTI/Drag-Drop"
+        "ARPHELPLINK" = "8:https://github.com/NYPTI/Outlook-Drag-Drop/issues"
         "Title" = "8:NYPTI Outlook Drag Drop Setup"
         "Subject" = "8:"
         "ARPCONTACT" = "8:New York Prosecutors Training Institute"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Drag and drop Outlook items as files into any application"
         "ARPURLINFOABOUT" = "8:https://www.nypti.org/"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_62FBC6D2559B42CABC25EC3EEF85108B"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -922,7 +1006,7 @@
                                                                             "Condition" = "8:"
                                                                             "Transitive" = "11:FALSE"
                                                                             "ValueTypes" = "3:1"
-                                                                            "Value" = "8:NYPTIOutlookDragDrop"
+                                                                            "Value" = "8:NYPTI Outlook Drag Drop"
                                                                             }
                                                                             "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_BDE554EC0FD5452B880DFE5E62B1F33B"
                                                                             {
@@ -1037,7 +1121,7 @@
                                                                     "Condition" = "8:"
                                                                     "Transitive" = "11:FALSE"
                                                                     "ValueTypes" = "3:1"
-                                                                    "Value" = "8:Outlook File Drag"
+                                                                    "Value" = "8:NYPTI Outlook Drag Drop"
                                                                     }
                                                                     "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_FE433651CB1C4B27B454859B408DC466"
                                                                     {
@@ -1147,7 +1231,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -1158,8 +1243,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
+                            "Setting" = "3:2"
+                            "Value" = "8:"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -1195,7 +1280,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "InstallAllUsersVisible"
@@ -1230,7 +1316,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "EulaText"
@@ -1277,7 +1364,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1308,7 +1396,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -1352,7 +1441,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -1402,7 +1492,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "EulaText"
@@ -1449,7 +1540,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1471,7 +1563,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -1482,8 +1575,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
+                            "Setting" = "3:2"
+                            "Value" = "8:"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -1519,7 +1612,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1550,7 +1644,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "UpdateText"
@@ -1594,7 +1689,8 @@
                             "Type" = "3:8"
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
-                            "Setting" = "3:1"
+                            "Setting" = "3:2"
+                            "Value" = "8:_AADBE92A841547E8AD00FDD508265F72"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1615,7 +1711,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_54EF5F74A56C4AEE96D4330B540B4A3A"
             {
-            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\obj\\Release\\NYPTI Outlook Drag Drop.dll"
+            "SourcePath" = "8:..\\NYPTIOutlookDragDrop\\obj\\x64\\Release64\\NYPTIOutlookDragDrop.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_919F44B827474C528E0E9FF4CAE2B9AE"
